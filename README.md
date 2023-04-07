@@ -1,2 +1,13 @@
-# challenge-02
-Portfolio
+# Challenge 2: Portfolio
+## Description
+This is a portfolio of my past work. It includes my name, 
+a photo of myself, and links to sections about me, my work, and how to contact
+me. Clicking these links takes the user to the corresponding section. In the
+section with my work, the user can click on an individual work and be taken
+its online location for viewing. This website is responsive and adapts
+to different screens resolutions and devices.
+
+## Screenshot
+
+## Website Location
+[Challenge 2](https://cwchilvers.github.io/challenge-02/)
