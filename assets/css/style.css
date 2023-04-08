@@ -72,3 +72,25 @@ figure img {
     border: 10px solid var(--orange);
     height: 300px; width: 300px;   
 }
+
+section {
+    padding-bottom: 50px; 
+}
+
+hr {
+    border: 1px solid var(--white);
+}
+
+h2 {
+    background-color: var(--orange);
+    color: var(--black);
+    text-align: left;
+    width: 300px;
+    font-size: 24px;
+    padding: 4px 0 4px 20px;
+    margin: -18px 0 0 4%;
+}
+
+p {
+    margin: 30px 15% 0 15%;
+}
