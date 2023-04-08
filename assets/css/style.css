@@ -1,3 +1,4 @@
+/* Declaring variables for main color scheme */
 :root {
     --orange: rgb(166, 78, 10);
     --black: rgb(20, 16, 13);
@@ -32,7 +33,13 @@ h1 {
     color: var(--orange);
     font-size: 36px;
     padding: 5px 80px 5px 20px;
+    transition: 0.3s;
 }
+
+h1:hover {
+    padding-left: 50px;
+    transition: 0.3s;
+} 
 
 nav {
     color: var(--black);
@@ -49,4 +56,11 @@ li {
     font-weight: bold;
     padding: 20px;
     text-decoration: none;
+    transition: 0.3s;
 } 
+
+.nav-link:hover {
+    color: var(--white);
+    transition: 0.3s;
+}
+
