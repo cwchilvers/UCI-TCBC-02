@@ -64,3 +64,11 @@ li {
     transition: 0.3s;
 }
 
+figure {
+    padding: 120px 0 20px 0;
+}
+
+figure img {
+    border: 10px solid var(--orange);
+    height: 300px; width: 300px;   
+}
