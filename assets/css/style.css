@@ -38,7 +38,8 @@ h1 {
 
 h1:hover {
     padding-left: 50px;
-    transition: 0.3s;
+    transition: 0.5s;
+    padding-right: 160px;
 } 
 
 nav {
@@ -64,21 +65,8 @@ li {
     transition: 0.3s;
 }
 
-figure {
-    padding: 120px 0 20px 0;
-}
-
-figure img {
-    border: 10px solid var(--orange);
-    height: 300px; width: 300px;   
-}
-
 section {
     padding-bottom: 50px; 
-}
-
-hr {
-    border: 1px solid var(--white);
 }
 
 h2 {
@@ -91,8 +79,38 @@ h2 {
     margin: -18px 0 0 4%;
 }
 
+h3 {
+    background-color: var(--black);
+    color:var(--orange);
+    font-size: 20px;;
+    text-align: left;
+    padding: 5px 0 5px 20px;
+    transition: 0.3s;
+}
+
+h4 {
+    background-color: var(--orange);
+    color: var(--black);
+    font-size: 16px;;
+    text-align: left;
+    padding: 5px 20px 3px 20px;
+}
+
 p {
     margin: 30px 15% 0 15%;
+}
+
+hr {
+    border: 1px solid var(--white);
+}
+
+figure {
+    padding: 120px 0 20px 0;
+}
+
+figure img {
+    border: 10px solid var(--orange);
+    height: 300px; width: 300px;   
 }
 
 #my-work-container {
@@ -112,7 +130,6 @@ p {
     overflow: hidden;
 }
 
-
 #featured-work img {
     height: 100%; width: 100%; 
     object-fit: cover;
@@ -121,10 +138,9 @@ p {
 }
 
 #featured-work:hover img {
-    transform: scale(1.05);
+    transform: scale(1.07);
     transition: 5s;
 }
-
 
 #featured-work div {
     align-items: center;
@@ -136,36 +152,73 @@ p {
     position: relative;
 }
 
-h3 {
-    background-color: var(--black);
-    color:var(--orange);
-    font-size: 20px;;
-    text-align: left;
-    padding: 5px 0 5px 20px;
-    transition: 0.3s;
-}
-
 #featured-work h3 {
     width: 400px;
 }
 
 #featured-work:hover h3 {
     color: var(--white);
-    padding-left: 40px;
-    transition: 0.3s;
-    width: 410px;
-}
-
-h4 {
-    background-color: var(--orange);
-    color: var(--black);
-    font-size: 16px;;
-    text-align: left;
-    padding: 5px 20px 5px 20px;
+    padding-left: 50px;
+    transition: 0.5s;
+    width: 480px;
 }
 
 #featured-work h4 {
     position: absolute;
-    margin-top: 823px;
+    margin-top: 825px;
 }
+
+#flex-break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.work {
+    background-color: var(--orange);
+    cursor: pointer;
+    height: 400px; width: 400px; 
+    max-width: 900px;
+    overflow: hidden;
+}
+
+.work img {
+    height: 100%; width: 100%; 
+    object-fit: cover;
+    position: relative;
+    transition: 1s;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+    transition: 5s;
+}
+
+.work div {
+    align-items: center;
+    background-color: var(--orange);
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: -400px;
+    position: relative;
+}
+
+.work h3 {
+    width: 250px;
+}
+
+.work:hover h3 {
+    color: var(--white);
+    padding-left: 40px;
+    transition: 0.5s;
+    width: 310px;
+}
+
+.work h4 {
+    position: absolute;
+    margin-top: 725px;
+}
+
+
+
 
