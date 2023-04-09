@@ -94,3 +94,71 @@ h2 {
 p {
     margin: 30px 15% 0 15%;
 }
+
+#my-work-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin: 30px 10% 0 10%;
+}
+
+#featured-work {
+    background-color: var(--orange);
+    cursor: pointer;
+    height: 450px; width: 80%; 
+    max-width: 900px;
+}
+
+
+#featured-work img {
+    height: 100%; width: 100%; 
+    object-fit: cover;
+    position: relative;
+}
+
+
+#featured-work div {
+    align-items: center;
+    background-color: var(--orange);
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: -450px;
+    position: relative;
+}
+
+h3 {
+    background-color: var(--black);
+    color:var(--orange);
+    font-size: 20px;;
+    text-align: left;
+    padding: 5px 0 5px 20px;
+    transition: 0.3s;
+}
+
+#featured-work h3 {
+    width: 400px;
+}
+
+#featured-work:hover h3 {
+    color: var(--white);
+    padding-left: 40px;
+    transition: 0.3s;
+    width: 410px;
+}
+
+h4 {
+    background-color: var(--orange);
+    color: var(--black);
+    font-size: 16px;;
+    text-align: left;
+    padding: 5px 20px 5px 20px;
+}
+
+#featured-work h4 {
+    position: absolute;
+    margin-top: 823px;
+}
+
