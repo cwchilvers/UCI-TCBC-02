@@ -109,6 +109,7 @@ p {
     cursor: pointer;
     height: 450px; width: 80%; 
     max-width: 900px;
+    overflow: hidden;
 }
 
 
@@ -116,6 +117,12 @@ p {
     height: 100%; width: 100%; 
     object-fit: cover;
     position: relative;
+    transition: 1s;
+}
+
+#featured-work:hover img {
+    transform: scale(1.05);
+    transition: 5s;
 }
 
 
