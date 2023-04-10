@@ -37,6 +37,7 @@ h1 {
     transition: 0.3s;
 }
 
+/* Animates title when mouse hovers over */
 h1:hover {
     padding-left: 50px;
     transition: 0.5s;
@@ -61,6 +62,7 @@ li {
     transition: 0.3s;
 } 
 
+/* Animates links when mouse hovers over */
 .nav-link:hover {
     color: var(--white);
     transition: 0.3s;
@@ -138,6 +140,7 @@ figure img {
     transition: 1s;
 }
 
+/* Animates image (zooming in) when mouse hovers over */
 #featured-work:hover img {
     transform: scale(1.07);
     transition: 5s;
@@ -157,6 +160,7 @@ figure img {
     width: 400px;
 }
 
+/* Animates work titles when mouse hovers over */
 #featured-work:hover h3 {
     color: var(--white);
     padding-left: 50px;
@@ -189,6 +193,7 @@ figure img {
     transition: 1s;
 }
 
+/* Animates image (zooming in) when mouse hovers over */
 .work:hover img {
     transform: scale(1.1);
     transition: 5s;
@@ -208,6 +213,7 @@ figure img {
     padding-right: 40px;
 }
 
+/* Animates work title when mouse hovers over */
 .work:hover h3 {
     color: var(--white);
     padding: 5 90px 5 40px;
@@ -248,16 +254,15 @@ footer {
     padding-bottom: 50px;
 }
 
+/* Modifies layout to fit narrower screens like mobile devices */
 @media screen and (max-width: 1080px) {
     header {
-
         height: 150px;
-
     }
 
     h1 {
-        position: absolute;
         margin-top: -40px;
+        position: absolute;
     }
 
     nav {
