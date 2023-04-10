@@ -1,6 +1,6 @@
 /* Declaring variables for main color scheme */
 :root {
-    --orange: rgb(166, 78, 10);
+    --orange: rgb(189, 89, 13);
     --black: rgb(20, 16, 13);
     --white: rgb(214, 212, 211);
 }
@@ -120,7 +120,7 @@ figure img {
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
-    margin: 30px 10% 0 10%;
+    margin: 30px 8% 0 8%;
 }
 
 #featured-work {
@@ -166,7 +166,7 @@ figure img {
 
 #featured-work h4 {
     position: absolute;
-    margin-top: 825px;
+    margin-top: 826px;
 }
 
 #flex-break {
@@ -217,9 +217,64 @@ figure img {
 
 .work h4 {
     position: absolute;
-    margin-top: 725px;
+    margin-top: 726px;
 }
 
+#contact-me-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
+#contact-me-container div {
+    background-color: var(--orange);
+    display: flex;
+    align-items: center;
+    height: 50px; width: 400px; 
+    overflow: hidden;
+}
 
+#contact-me-container h3 {
+    width: 100%;
+}
 
+#contact-me-container a {
+    position: absolute;
+    padding-left: 110px;
+}
+
+footer {
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+    header {
+
+        height: 150px;
+
+    }
+
+    h1 {
+        position: absolute;
+        margin-top: -40px;
+    }
+
+    nav {
+        position: absolute;
+        margin-top: 80px;
+    }
+
+    figure {
+        padding: 170px 0 40px 0;
+    }
+
+    #my-work-container {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+        margin: 30px 2% 0 2%;
+    }
+}
