@@ -12,4 +12,4 @@ to different screens resolutions and devices.
 ![Screenshot 2023-04-09 204309](https://user-images.githubusercontent.com/59628271/230822504-d2897e8e-9e2c-441a-8b39-8052db971980.png)
 
 ## Deployed Web App
-[Portfolio](https://cwchilvers.github.io/UCI-CBC_Challenge-02/)
+[Portfolio](https://apps.cwchilvers.io/apps/uci-bootcamp/UCI-CBC-02-Portfolio/index.html)
