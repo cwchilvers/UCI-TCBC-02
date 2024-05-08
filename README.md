@@ -22,10 +22,10 @@ Clone the repository locally and open the `index.html` file in your browser.
 
 ## Screenshots
 
-<p align="center">
+<div align="center">
   <img src="https://user-images.githubusercontent.com/59628271/230822480-e773ecc6-e974-4156-a91c-aa0a2b54bc3a.png">
   <img src="https://user-images.githubusercontent.com/59628271/230822504-d2897e8e-9e2c-441a-8b39-8052db971980.png">
-</p>
+</div>
 
 ## Technologies Used
 * HTML
