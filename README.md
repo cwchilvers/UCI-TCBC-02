@@ -9,19 +9,16 @@
 
 ## Table of Contents
 1. [Description](#description)
-2. [Usage](#usage)
-3. [Screenshots](#screenshots)
-4. [Technologies Used](#technologies-used)
-5. [Contact Information](#contact-information)
+2. [Screenshots](#screenshots)
+3. [Technologies Used](#technologies-used)
+4. [Usage](#usage)
+5. [Deployment](#deployment)
+6. [Contact Information](#contact-information)
 
 ## Description
 This portfolio showcases my previous work. It features my name, a photo, and direct links to sections detailing information about me, my projects, and how to get in touch. Each link seamlessly navigates users to their intended section. Within the project section, users can easily access individual works and view them online. The website is responsive, ensuring optimal display across various screen sizes and devices.
 
-## Usage
-Clone the repository locally and open the `index.html` file in your browser.
-
 ## Screenshots
-
 <div align="center">
   <img src="https://user-images.githubusercontent.com/59628271/230822480-e773ecc6-e974-4156-a91c-aa0a2b54bc3a.png">
 </div>
@@ -32,6 +29,12 @@ Clone the repository locally and open the `index.html` file in your browser.
 ## Technologies Used
 * HTML
 * CSS
+
+## Usage
+Clone the repository locally and open the `index.html` file in your browser.
+
+## Deployment
+The deployed version of the portfolio can be accessed at [https://uci-tcbc-02.cwchilvers.io/](https://uci-tcbc-02.cwchilvers.io/).
 
 ## Contact Information
 <h4 align="center">Chandler Chilvers:</h4>
