@@ -15,12 +15,7 @@
 5. [Contact Information](#contact-information)
 
 ## Description
-This is a portfolio of my past work. It includes my name, 
-a photo of myself, and links to sections about me, my work, and how to contact
-me. Clicking these links takes the user to the corresponding section. In the
-section with my work, the user can click on an individual work and be taken
-its online location for viewing. This website is responsive and adapts
-to different screens resolutions and devices.
+This portfolio showcases my previous work. It features my name, a photo, and direct links to sections detailing information about me, my projects, and how to get in touch. Each link seamlessly navigates users to their intended section. Within the project section, users can easily access individual works and view them online. The website is responsive, ensuring optimal display across various screen sizes and devices.
 
 ## Usage
 Clone the repository locally and open the `index.html` file in your browser.
