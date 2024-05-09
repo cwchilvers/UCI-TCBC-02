@@ -11,8 +11,8 @@
 1. [Description](#description)
 2. [Screenshots](#screenshots)
 3. [Technologies Used](#technologies-used)
-4. [Usage](#usage)
-5. [Deployment](#deployment)
+4. [Installation](#installation)
+5. [Usage](#usage)
 6. [Contact Information](#contact-information)
 
 ## Description
@@ -31,10 +31,10 @@ This portfolio showcases my previous work. It features my name, a photo, and dir
 * CSS
 
 ## Usage
-Clone the repository locally and open the `index.html` file in your browser.
-
-## Deployment
 The deployed version can be accessed at [uci-tcbc-02.cwchilvers.io](https://uci-tcbc-02.cwchilvers.io).
+
+## Installation
+Clone the repository locally and open the `index.html` file in your browser.
 
 ## Contact Information
 <h4 align="center">Chandler Chilvers:</h4>
