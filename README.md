@@ -31,7 +31,7 @@ This portfolio showcases my previous work. It features my name, a photo, and dir
 * CSS
 
 ## Usage
-The deployed version can be accessed at [uci-tcbc-02.cwchilvers.io](https://uci-tcbc-02.cwchilvers.io).
+The deployed version can be accessed [here](https://uci-tcbc-02.cwchilvers.io).
 
 ## Installation
 Clone the repository locally and open the `index.html` file in your browser.
